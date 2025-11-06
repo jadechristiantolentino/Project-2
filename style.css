@@ -1,58 +1,48 @@
 body {
-  background-color: #000;
-  color: #fff;
-  font-family: 'Poppins', sans-serif;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-}
-
-.cities-section {
-  padding: 50px 20px;
-}
-
-h1 {
-  font-weight: 700;
-  font-size: 3rem;
-  margin-bottom: 10px;
+    background-color: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
 .flag {
-  width: 140px;
-  margin-bottom: 40px;
-  border-radius: 8px;
-  box-shadow: 0 0 15px rgba(255, 255, 255, 0.4);
+    width: 100px;
+    margin-bottom: 30px;
+}
+
+.cities-section {
+    padding: 50px 20px;
 }
 
 .container-cities {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 40px;
-  margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
 }
 
 .city-card {
-  width: 450px;
-  background: #111;
-  border-radius: 25px;
-  padding: 20px;
-  transition: transform 0.3s, box-shadow 0.3s;
-  box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+    background-color: #111;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(255,255,255,0.1);
+    width: 400px; /* Make images larger */
+    padding: 20px;
+    transition: transform 0.3s ease;
 }
 
 .city-card:hover {
-  transform: scale(1.05);
-  box-shadow: 0 0 25px rgba(255, 255, 255, 0.2);
+    transform: scale(1.05);
 }
 
 .city-card img {
-  width: 100%;
-  height: 320px;
-  border-radius: 20px;
-  object-fit: cover;
-  margin-bottom: 15px;
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
 }
+
 
 .videos-section {
   margin-top: 80px;
